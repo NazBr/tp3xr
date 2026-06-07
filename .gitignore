@@ -1,0 +1,64 @@
+# ====================================================================
+# Unity .gitignore
+# ====================================================================
+
+# Dossiers générés par Unity (Ne jamais versionner)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Fichiers de cache et rapports de crash
+sysinfo.txt
+crashlytics-build.properties
+
+# Fichiers générés par l'Asset Server
+*.metadata
+*.ServerPreferences.xml
+
+# Fichiers générés par les éditeurs de code (Visual Studio, Rider, etc.)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Fichiers meta associés aux fichiers ignorés (très important de les ignorer aussi)
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Dossiers spécifiques aux IDE
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+
+# Fichiers builds et packages (généralement trop lourds pour Git classique)
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Fichiers OS (macOS / Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
